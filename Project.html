@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<HTML lang = "en">
+	<HEAD>
+		<TITLE>Hershey Joy Aviles</TITLE>
+		
+		<!-- CSS - DESKTOP VIEW -->
+		<LINK rel="stylesheet" media="screen and (min-width:1024px)" href="CSS file/DesktopView.css">
+		
+		<!-- CSS - MOBILE VIEW -->
+		<LINK rel="stylesheet" media="screen and (max-width:1023px)" href="CSS file/MobileView.css">
+		
+		<!-- CSS - TABLET VIEW 
+		<LINK rel="stylesheet" media="screen and (max-width:767px)" href="CSS file/TabletView.css">-->
+		
+		<!-- Colors: black, white -->
+		
+		<!-- ICONS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Test color: #9992e0, #ec9ced, #DDC6BC, #262626, #222 -->
+		
+		<!-- FOR LATER:
+			"A little progress each day adds up to big results." -Satya Nani
+			"You don't have to be great to start, but you have to start to be great" -Zig Ziglar
+			"Start where you are. Use what you have. Do what you can" -Arthur Ashe
+			"Just believe in yourself. Even if you don't, pretend that you do, and at some point, you will" -Venus Williams
+		-->
+		
+		<!--
+			Facebook Profile: https://www.facebook.com/HershAviles
+			Skype Profile: https://join.skype.com/invite/Y902POM2OB5x
+			E-mail: hersh.aviles@gmail.com
+		-->
+	</HEAD>
+	
+	<!-- Must contain Compilation of Project w/ Description -->
+	<!-- PROJECTS -->
+	<BODY>
+		<!-- NAVIGATION -->
+		<NAV id="navigation">
+			<H3 id="top">Student Portfolio</H3>
+			<UL id="main_nav" class="navLinks" data-visible="false">
+				<LI><a href = "Index.html" target = "_self" class = "inactive">Home</a></LI>
+				<LI><a href = "AboutMe.html" target = "_self" class = "inactive">About Me</a></LI>
+				<LI><a href = "Profile.html" target = "_self" class = "inactive">Profile</a></LI>
+				<LI><a href = "#" target = "_self" class = "active">Projects</a></LI>
+			</UL>
+			<!-- BURGER -->
+			<DIV class="burger" aria-controls="main_nav" aria-expanded="false">
+				<div class="burgerLine1"></div>
+				<div class="burgerLine2"></div>
+				<div class="burgerLine3"></div>
+			</DIV>
+		</NAV>
+		
+		<HR class="line">
+		<!-- PROJECTS -->
+		<DIV id="proj_div">
+			<P class="altText" id="abtMe">Projects</P>
+			
+			
+			<!-- ROW: 1 -->
+			<DIV class="row row-1">
+				<!-- PROJECT: Hotel Management System  -->
+				<DIV class="column">
+					<DIV class="wrapper"  onclick="open_STIHotel()">
+						<img class="image" src="images/Projects/Thumbnail/th-Hotel Management System.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								STI Hotel<SPAN>Hotel Management System</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT: Monshiro -->
+				<DIV class="column">
+					<DIV class="wrapper" onclick="open_monshiro()">
+						<img class="image" src="images/Projects/Thumbnail/th-Monshiro.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Monshiro<SPAN>Character Infographic</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT: VaccPinas -->
+				<DIV class="column" onclick="open_VaccPinas()">
+					<DIV class="wrapper">
+						<img class="image" src="images/Projects/Thumbnail/th-VaccPinas.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								VaccPinas<SPAN>Digital Vaccination Logbook</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+
+			<!-- ROW: 2 -->
+			<DIV class="row row-2">
+				<!-- PROJECT: Literacy Program Poster  -->
+				<DIV class="column">
+					<DIV class="wrapper"  onclick="open_Literacy()">
+						<img class="image" src="images/Projects/Thumbnail/th-Literacy Program Poster.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Literacy Program<SPAN>Poster</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT: Ping Pong Game -->
+				<DIV class="column">
+					<DIV class="wrapper" onclick="open_pong()">
+						<img class="image" src="images/Projects/Thumbnail/th-PingPong.jpg">
+						<DIV class="overlay">
+							<DIV class="content">
+								Ping Pong Game<SPAN>Game Test</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT: Luzon Brochure -->
+				<DIV class="column" onclick="open_Luzon()">
+					<DIV class="wrapper">
+						<img class="image" src="images/Projects/Thumbnail/th-Luzon.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Luzon Tourist Spots<SPAN>Brochure</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV
+			
+			<!-- ROW: 3 -->
+			<DIV class="row row-3">
+				<!-- PROJECT: Data Models  -->
+				<DIV class="column">
+					<DIV class="wrapper"  onclick="open_DataModels()">
+						<img class="image" src="images/Projects/Thumbnail/th-Data Models.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Data Models Evolution<SPAN>Infographic</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT: Notebook -->
+				<DIV class="column">
+					<DIV class="wrapper" onclick="open_notebook()">
+						<img class="image" src="images/Projects/Thumbnail/th-Notebook.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Notebook Render<SPAN>3D</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+				<!-- PROJECT:  -->
+				<DIV class="column" onclick="open_dice()">
+					<DIV class="wrapper">
+						<img class="image" src="images/Projects/Thumbnail/th-Dice Render.png">
+						<DIV class="overlay">
+							<DIV class="content">
+								Dice Render<SPAN>3D</SPAN>
+							</DIV>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>	
+			
+			
+		
+		<BR>
+		<HR class="line">
+		<BR>
+		
+		<!-- FOOTER -->
+		<FOOTER id="copyright">
+			<BR><P id="motto"><EM>"Start where you are. Use what you have. Do what you can"
+			<BR><B>- Arthur Ashe</EM></B></P>
+			
+			<BR><P id="email"><a href="mailto:hersh.aviles@gmail.com">hersh.aviles@gmail.com</a></P>
+			
+			<BR><P>&#169; Hershey Joy Aviles All Rights Reserved.</P><BR>
+		</FOOTER>
+		
+		<!-- SCRIPT -->
+		<SCRIPT src="JavaScript file/myScript.js" type="text/javascript"></SCRIPT>
+	</BODY>
+</HTML>
