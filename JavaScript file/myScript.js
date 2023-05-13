@@ -47,6 +47,9 @@ function open_Luzon(){location.href="Proj/Luzon.html";}
 function open_DataModels(){location.href="Proj/Data Models.html";}
 function open_notebook(){location.href="Proj/Notebook.html";}
 function open_dice(){location.href="Proj/Dice.html";}
+function open_DonJuan(){location.href="Proj/Don Juan.html";}
+function open_ITISLogo(){location.href="Proj/IT & IS Logo.html";}
+function open_catpanion(){location.href="Proj/Catpanion.html";}
 
 // GO BACT TO PROJECTS
 function goto_proj(){
